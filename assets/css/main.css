@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+
+
+
+@plugin "daisyui" {
+    
+    themes: dark --default, cyberpunk --prefersdark;
+    root: ":root";
+    include: ;
+    exclude: ;
+    prefix: ;
+    logs: true;
+  }
+
