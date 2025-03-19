@@ -1,4 +1,7 @@
 <script setup lang="ts">
-const route = useRoute()
-console.log(route.params.id)
+definePageMeta({
+  validate: async (route) => {
+    return typeof route.params.id === 'string' && /^\d+$/.test(route.params.id)
+  }
+})
 </script>

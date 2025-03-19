@@ -1,8 +1,8 @@
 <template data-theme="cyberpunk">
-    <Navbar />
+    
     <div>
-      <h1>Selam Gardass!!!!!!</h1>
-  
+      <h1>başlık</h1>
+      <content />
     </div>
   </template>
   
